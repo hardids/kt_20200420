@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Diary / {0}</title>
+    <meta charset="utf-8">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div style="font-family: 'Gaegu'; background-image: url('https://image.freepik.com/free-vector/beautiful-rainbow-sky-with-green-meadow-mountain-nature_7081-1267.jpg'); background-size: contain">
+        <div id = "top-left" style="width:100%; border:2px solid black; text-align: center">
+            <h1><a href="/main">Main</a></h1>
+        </div>
+        <div id = "content-box">
+            <div id = "left" style="width:150px; float:left">
+                <a style="font-size:25px" href="/create">New</a><br>
+<!--                <a style="font-size:25px" href="/update/">Update</a> -->
+                <a style="font-size:25px" href="/delete/{0}">Delete</a><br>
+                <a style="font-size:22px" href="/relax">휴식</a>
+                <h3>주요 사이트</h3>
+                <ol>
+                    <li><a style="font-size:18px" href="https://finance.naver.com" target="_blank">네이버 금융</a></li>
+                    <li><a style="font-size:18px" href="https://finance.daum.net" target="_blank">다음 금융</a></li>                    
+                </ol>
+            </div>
+            <div id = "right" style="display:inline-block; text-align: center">
+                <h2>{0}</h2>
+                {1}
+                <ol>
+                    Trading Log Lists
+                    {2}
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
